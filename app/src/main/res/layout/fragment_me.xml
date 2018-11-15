@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.MeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:text="作者Github地址："
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/bt_gayhub"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="https://github.com/XuWuDeAi"
+            android:textColor="@color/white"
+            android:theme="@style/GreenButton" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:text="app下载/更新地址："
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="暂无"
+            android:textColor="@color/white"
+            android:theme="@style/GreenButton" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:text="app开源地址:(不允许商用)"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/bt_gayhubcode"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="https://github.com/XuWuDeAi/gdlgxy"
+            android:textColor="@color/white"
+            android:theme="@style/GreenButton" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:text="打赏开发者："
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/bt_baba"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="求求爸爸们,给口饭吃吧"
+            android:textColor="@color/white"
+            android:theme="@style/GreenButton" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="说明:该app为广理某学生毕业设计"
+            android:textColor="#0056d3" />
+
+    </LinearLayout>
+
+</LinearLayout>
